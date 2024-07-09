@@ -1,11 +1,5 @@
-import React from "react";
-
 function App() {
-  return (
-    <div className="App">
-      <h1>PDF converter</h1>
-    </div>
-  );
+  return <div className="underline text-center">PDF converter</div>;
 }
 
 export default App;
