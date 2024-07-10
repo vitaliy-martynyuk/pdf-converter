@@ -1,5 +1,7 @@
 # PDF converter
 
+> For local testing only.
+
 ## Main Technologies & 3rd-party modules used
 
 - [React](https://react.dev/)
