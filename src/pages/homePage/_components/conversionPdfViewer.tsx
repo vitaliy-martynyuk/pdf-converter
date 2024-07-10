@@ -1,6 +1,6 @@
 import React from "react";
 //TODO: alias
-import { PDFViewer } from "../../../utils/pdf";
+import { PDFViewer } from "../../../utils/heap";
 
 interface ConversionPDFViewerProps {
   pdfUrl: string;
