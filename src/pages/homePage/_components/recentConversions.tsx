@@ -1,6 +1,6 @@
 import React from "react";
-//TODO: alias
-import { ConversionItem } from "src/domains";
+
+import { ConversionItem } from "../../../domains";
 
 interface RecentConversionsProps {
   items: Array<ConversionItem>;

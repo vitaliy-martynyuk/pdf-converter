@@ -10,7 +10,6 @@
 
 ## Structure
 
-- **src/configs**: includes all project configs & related utils.
 - **src/domains**: includes all domain related tools(api layer, consts, types, etc.) for each entity separately.
 - **src/domains**: contains app pages, includes related UI components & tests
 - **src/utils**: includes common utils

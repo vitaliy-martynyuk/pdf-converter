@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react";
-//TODO: alias
+
 import {
   CONVERSION_LOCAL_STORAGE_KEYS,
   ConversionItem,
   useConvertToPdf,
-} from "src/domains";
+} from "../../domains";
 import { uuid, useLocalStorage } from "../../utils/heap";
 
 import {
