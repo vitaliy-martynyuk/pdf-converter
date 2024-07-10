@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
 
-import { useConvert } from "./api";
-import { useLocalStorage } from "./utils/localStorage";
-import { PDFViewer } from "./utils/pdf";
-import { uuid } from "./utils/heap";
+import { useConvert } from "../../api";
+import { useLocalStorage } from "../../utils/localStorage";
+import { PDFViewer } from "../../utils/pdf";
+import { uuid } from "../../utils/heap";
 
-function App() {
+function HomePage() {
   const { convertData } = useConvert();
   const { getItem, setItem, stringifyItem, parseItem } = useLocalStorage();
   const [pdfUrl, setPdfUrl] = useState("");
@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className="bg-slate-100 grow grid grid-rows-8 grid-cols-8 gap-0 max-h-screen">
+    <div className="bg-slate-100 grow grid !grid-rows-8 !grid-cols-8 !gap-0 max-h-screen">
       <form
         className="col-start-4 col-end-9 row-start-1 row-end-3 rounded-md mt-2 mr-2 mb-1 ml-1 bg-white flex flex-col justify-between box-border"
         onSubmit={(e) => {
@@ -102,4 +102,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
