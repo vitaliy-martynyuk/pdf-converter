@@ -6,7 +6,7 @@ import { uuid } from "../../utils/heap";
 
 import {
   ConversionForm,
-  ConversionPdfViewer,
+  ConversionPDFViewer,
   RecentConversions,
 } from "./_components";
 
@@ -46,7 +46,7 @@ function HomePage() {
         items={parseItem(getItem("items") || "[]")}
         onItemClick={convertToPdf}
       />
-      <ConversionPdfViewer pdfUrl={pdfUrl} isLoading={false} />
+      <ConversionPDFViewer pdfUrl={pdfUrl} isLoading={false} />
     </div>
   );
 }

@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "."
-    //TODO:
+    //TODO: alias
     // "paths": {
     //   "@utils/*": ["src/utils/*"],
     //   "@api/*": ["src/api/*"],
